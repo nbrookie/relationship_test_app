@@ -1,0 +1,7 @@
+{{#each model.kids as |kid|}}
+  <div>
+    kid: {{kid.name}}
+    parent: {{kid.parent.name}}
+    grand parent: {{kid.parent.grandParent.name}}
+  </div>
+{{/each}}
